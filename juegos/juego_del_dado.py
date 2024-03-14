@@ -6,6 +6,7 @@ def juego_del_dado():
     Después el computador también tiene que lanzar un dado.
     El primero en sumar 30 puntos gana.
     """
+    
     puntuacion_usuario = 0
     puntuacion_computador = 0
     while puntuacion_usuario < 30 or puntuacion_computador < 30:
