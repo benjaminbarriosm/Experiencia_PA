@@ -6,7 +6,7 @@ def cachipun():
     La computadora debe elegir una opción al azar.
     """
     x=""
-    usuario=input("elige entre ")
+    usuario=input("elige entre tijera, piedra o papel:")
     opcion=["piedra","papel","tijera"]
     aleatorio=random.choice(opcion)
     if usuario==aleatorio:
