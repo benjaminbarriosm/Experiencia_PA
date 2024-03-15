@@ -11,3 +11,5 @@ def memoria():
       print("Ganaste! :)")
     else:
       print(f"Perdiste, la secuencia es {k}")
+
+memoria()
